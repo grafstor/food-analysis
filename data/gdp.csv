@@ -1,0 +1,232 @@
+country,gdp
+Afghanistan,no data
+Albania,8924.317
+Algeria,5721.678
+Andorra,44899.596
+Angola,2431.58
+Antigua and Barbuda,20532.983
+Argentina,12811.84
+Armenia,8575.301
+Aruba,38018.431
+Australia,66589.055
+Austria,59225.15
+Azerbaijan,7640.915
+"Bahamas, The",35257.198
+Bahrain,28876.454
+Bangladesh,2646.005
+Barbados,23596.139
+Belarus,7557.795
+Belgium,55536.223
+Belize,7170.182
+Benin,1512.242
+Bhutan,4014.386
+Bolivia,4014.178
+Bosnia and Herzegovina,8415.97
+Botswana,7875.313
+Brazil,11351.871
+Brunei Darussalam,35111.31
+Bulgaria,16942.519
+Burkina Faso,910.21
+Burundi,230.044
+Cabo Verde,4655.649
+Cambodia,2627.767
+Cameroon,1814.944
+Canada,54866.046
+Central African Republic,537.601
+Chad,1014.082
+Chile,16616.231
+china,13136.482
+Colombia,7327.118
+Comoros,1384.485
+"Congo, Dem. Rep. of the",714.763
+"Congo, Republic of ",2456.868
+Costa Rica,18030.977
+Croatia,22966.106
+Cyprus,37148.586
+Czech Republic,29800.665
+Côte d'Ivoire,2717.404
+Denmark,68897.547
+Djibouti,4183.97
+Dominica,9455.158
+Dominican Republic,11773.566
+Ecuador,6566.926
+Egypt,3224.868
+El Salvador,5537.203
+Equatorial Guinea,6733.327
+Eritrea,no data
+Estonia,31854.782
+Eswatini,4323.957
+Ethiopia,1909.984
+Fiji,6287.253
+Finland,55126.995
+France,47358.557
+Gabon,9307.875
+"Gambia, The",989.17
+Georgia,8825.411
+Germany,54290.944
+Ghana,2229.904
+Greece,23965.779
+Grenada,12254.599
+Guatemala,5678.085
+Guinea,1650.556
+Guinea-Bissau,1087.487
+Guyana,26592.216
+Haiti,1940.632
+Honduras,3504.502
+Hong Kong SAR,53606.486
+Hungary,23318.553
+Iceland,84593.939
+India,2730.774
+Indonesia,5270.975
+Iran,5310.256
+Iraq,5978.943
+Ireland,106058.582
+Israel,53371.545
+Italy,39579.56
+Jamaica,7309.314
+Japan,33138.163
+Jordan,4705.339
+Kazakhstan,14778.424
+Kenya,1983.099
+Kiribati,2446.127
+korea,34164.985
+Kosovo,6388.731
+Kuwait,31723.933
+kyrgyzstan,1921.514
+Lao P.D.R.,1976.483
+Latvia,24193.744
+Lebanon,no data
+Lesotho,1107.084
+Liberia,854.852
+Libya,6975.33
+Lithuania,28407.196
+Luxembourg,131384.164
+Macao SAR,78962.24
+Madagascar,538.176
+Malawi,480.727
+Malaysia,13314.84
+Maldives,17817.78
+Mali,898.817
+Malta,41738.084
+Marshall Islands,6710.545
+Mauritania,2346.945
+Mauritius,12973.298
+Mexico,15248.788
+"Micronesia, Fed. States of",5119.566
+Moldova,7488.443
+Mongolia,6181.886
+Montenegro,12645.548
+Morocco,4077.525
+Mozambique,659.095
+Myanmar,1247.676
+Namibia,4745.256
+Nauru,12362.25
+Nepal,1397.08
+Netherlands,63749.903
+New Zealand,48530.814
+Nicaragua,2791.231
+Niger,670.104
+Nigeria,1109.899
+North Macedonia ,8847.378
+Norway,94659.918
+Oman,20913.3
+Pakistan,1588.88
+Palau,17441.487
+Panama,19369.476
+Papua New Guinea,2530.37
+Paraguay,5984.287
+Peru,8290.943
+Philippines,4130.275
+Poland,23013.882
+Portugal,28969.288
+Puerto Rico,37171.719
+Qatar,81399.515
+Romania,19529.841
+Russian Federation,14391.176
+abkhazia,14391.176
+south ossetia,14391.176
+Rwanda,988.74
+Saint Kitts and Nevis,23705.137
+Saint Lucia,14101.38
+Saint Vincent and the Grenadines,10150.323
+Samoa,4839.664
+San Marino,59405.352
+Saudi Arabia,33039.932
+Senegal,1899.731
+Serbia,12383.904
+Seychelles,21875.075
+Sierra Leone,526.587
+Singapore,88446.924
+slovakia,25934.992
+Slovenia,34026.494
+Solomon Islands,2252.633
+Somalia,775.944
+South Africa,5974.912
+"South Sudan, Republic of",421.857
+Spain,34045.166
+Sri Lanka,3354.38
+Sudan,546.707
+Suriname,6702.27
+Sweden,58528.523
+Switzerland,105668.981
+Syria,no data
+São Tomé and Príncipe,3167.295
+Taiwan Province of China,34431.965
+Tajikistan,1271.387
+Tanzania,1220.356
+Thailand,7811.598
+Timor-Leste,1453.668
+Togo,1058.319
+Tonga,5840.151
+Trinidad and Tobago,19861.182
+Tunisia,4435.001
+Turkmenistan,12412.043
+Tuvalu,6001.056
+turkey,12764.707
+Uganda,1201.968
+Ukraine,5662.948
+United Arab Emirates,53916.025
+United Kingdom,51074.793
+scotland,51074.793
+United States,85372.686
+Uruguay,23087.682
+Uzbekistan,2665.812
+Vanuatu,3733.74
+Venezuela,3867.439
+Vietnam,4622.544
+West Bank and Gaza,no data
+Yemen,486.382
+Zambia,1413.421
+Zimbabwe,2087.614
+Africa (Region),1955.933
+Asia and Pacific,8652.982
+Australia and New Zealand,63611.511
+Caribbean,6815.96
+Central America,8027.602
+Central Asia and the Caucasus,9483.776
+East Asia,15816.543
+Eastern Europe ,15935.108
+Europe,36063.347
+Middle East (Region),13818.058
+North Africa,4121.117
+North America,64581.218
+Pacific Islands ,2828.969
+South America,10142.05
+South Asia,2570.226
+Southeast Asia,5947.54
+Sub-Saharan Africa (Region) ,1582.722
+Western Europe,50253.555
+Western Hemisphere (Region),37213.582
+ASEAN-5,6881.513
+Advanced economies,58257.659
+Emerging and Developing Asia,7062.17
+Emerging and Developing Europe,14183.923
+Emerging market and developing economies,6702.644
+Euro area,45825.83
+European Union,42443.319
+Latin America and the Caribbean,10878.689
+Major advanced economies (G7),62412.739
+Middle East and Central Asia,5744.87
+Other advanced economies,51506.626
+Sub-Saharan Africa,1620.972
+World,13836.311
