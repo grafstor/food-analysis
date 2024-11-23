@@ -1,25 +1,29 @@
 # food-analysis
-An in-depth analysis of food products from retail chain 
+
+An in-depth analysis of food products from retail chain
 
 <img src='https://github.com/grafstor/food-analysis/blob/main/media/penguin.gif?raw=true' align='center' width="200px">
 
 ## Product Price Prediction
 
-We used **RandomForestRegressor** to build a regression model aimed at predicting product prices.
-- **Root Mean Squared Error (RMSE) on the test set:** 302.50
+I used **CatBoostRegressor** to build a regression model aimed at predicting product prices.
+
+- **Root Mean Squared Error (RMSE) on the test set:** 274.3
+
 #### Sample Predictions
 
-|       | Product Name                                        | Actual Price | Predicted Price |
-| ----- | --------------------------------------------------- | ------------ | --------------- |
-| 2316  | Мёд Медовый Дом Крымские травы цветочный натур...   | 359.99       | 253.26          |
-| 1121  | Горбуша натуральная Пр!ст, 250г                     | 134.99       | 200.99          |
-| 4560  | Масло сладкосливочное Традиционное несолёное 82%... | 219.99       | 218.94          |
-| 11539 | Бренди Torres Гран Ресерва 10 38% в подарочной...   | 1849.00      | 2148.72         |
-| 8664  | Хлеб Рижский Хлеб Ремесленный заварной из пшен...   | 91.99        | 96.50           |
-| 5553  | Питахайя крупная                                    | 479.99       | 198.76          |
-| 7590  | Продукт растительный Kara Coconut Milk на осно...   | 99.99        | 181.06          |
-| 7953  | Маринад Костровок Идея на закуску для приготов...   | 75.99        | 98.96           |
-| 2417  | Десерт Philosophia de Natura Яблочная карамель...   | 159.99       | 196.20          |
+
+|       | Product Name                                                                                 | Actual Price | Predicted Price |
+| ----- | -------------------------------------------------------------------------------------------- | ------------ | --------------- |
+| 2316  | Мёд Медовый Дом Крымские травы цветочный натур...    | 359.99       | 309.31          |
+| 1121  | Горбуша натуральная Пр!ст, 250г                                       | 134.99       | 231.87          |
+| 4560  | Масло сладкосливочное Традиционное несолёное 82%... | 219.99       | 213.23          |
+| 11539 | Бренди Torres Гран Ресерва 10 38% в подарочной...                | 1849.00      | 2039.38         |
+| 8664  | Хлеб Рижский Хлеб Ремесленный заварной из пшен...    | 91.99        | 80.77           |
+| 5553  | Питахайя крупная                                                              | 479.99       | 210.93          |
+| 7590  | Продукт растительный Kara Coconut Milk на осно...                   | 99.99        | 114.44          |
+| 7953  | Маринад Костровок Идея на закуску для приготов...    | 75.99        | 111.53          |
+| 2417  | Десерт Philosophia de Natura Яблочная карамель...                      | 159.99       | 191.99          |
 
 ## Grokking Experiment
 
@@ -49,9 +53,8 @@ For more information on **grokkfast**, visit the repository: [grokkfast GitHub](
 - **Dropout:** 0.2
 
 #### Experiment Graphs
+
 ![Frame 1](https://github.com/user-attachments/assets/967cd5b0-93aa-4ebb-97ac-180e620efc8b)
-
-
 
 ## Hypotheses Tested
 
@@ -59,35 +62,30 @@ During this project, several important questions were addressed through statisti
 
 1. **Does the composition affect the product's rating?**
 
-   **Method:** Regression analysis  
-   **Result:** 36 out of 128 p-values were less than the significance level ($\alpha$).  
+   **Method:** Regression analysis
+   **Result:** 36 out of 128 p-values were less than the significance level ($\alpha$).
    **Conclusion:** The null hypothesis (H₀) is rejected, indicating that composition affects the product rating.
-
 2. **Does the protein content depend on whether the product is sold by weight?**
 
-   **Method:** T-test (non-normal distribution)  
-   **t-value:** 22.92  
-   **p-value:** $1.76 \times 10^{-88}$  
+   **Method:** T-test (non-normal distribution)
+   **t-value:** 22.92
+   **p-value:** $1.76 \times 10^{-88}$
    **Conclusion:** The null hypothesis (H₀) is rejected, meaning protein content depends on whether the product is sold by weight.
-
 3. **Does the price depend on the shelf life?**
 
-   **Method:** Spearman's correlation coefficient\
-   **Spearman’s coefficient:** 0.293  
-   **p-value:** $1.38 \times 10^{-243}$  
+   **Method:** Spearman's correlation coefficient
+   **Spearman’s coefficient:** 0.293
+   **p-value:** $1.38 \times 10^{-243}$
    **Conclusion:** The null hypothesis (H₀) is rejected, showing that price depends on shelf life.
-
 4. **Are foreign products more expensive?**
 
-   **Method:** U-test\
-   **U-statistic:** 18,230,106  
-   **p-value:** $6.68 \times 10^{-278}$  
+   **Method:** U-test
+   **U-statistic:** 18,230,106
+   **p-value:** $6.68 \times 10^{-278}$
    **Conclusion:** The null hypothesis (H₀) is rejected, indicating that foreign products are more expensive than local products.
-
 5. **Is it true that discounts are less common for products with a short shelf life?**
 
-   **Method:** U-test  
-   **U-statistic:** 17,661,316.5  
-   **p-value:** $2.39 \times 10^{-57}$  
+   **Method:** U-test
+   **U-statistic:** 17,661,316.5
+   **p-value:** $2.39 \times 10^{-57}$
    **Conclusion:** The null hypothesis (H₀) is rejected. Contrary to the question, discounts are more common for products with a longer shelf life.
-
